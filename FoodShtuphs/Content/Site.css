@@ -1,12 +1,14 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 250px;
     padding-bottom: 20px;
+    color: black;
+    border-bottom-color: green;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -18,7 +20,7 @@ textarea {
 
 /* styles for validation helpers */
 .field-validation-error {
-    color: #b94a48;
+    color: black;
 }
 
 .field-validation-valid {

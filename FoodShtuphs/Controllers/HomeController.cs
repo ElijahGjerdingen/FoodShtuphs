@@ -25,7 +25,7 @@ namespace FoodShtuphs.Controllers
         {
             ViewBag.Message = "Test";
             ViewBag.Location = "minnesota, USA";
-
+            
             return View();
         }
 
