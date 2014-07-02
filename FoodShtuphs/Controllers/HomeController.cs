@@ -11,7 +11,12 @@ namespace FoodShtuphs.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.message = "welcome to ASP.NET MVC!";
+            ViewBag.message = string.Format("{0}::{1} {2}", 
+                                    RouteData.Values["Controller"],
+                                    RouteData.Values["action"],
+                                    RouteData.Values["id"]);
+
+            
 
             var model = new RestaurantReview
             {

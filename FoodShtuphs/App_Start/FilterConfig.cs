@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using FoodShtuphs.Infastructure;
 
 namespace FoodShtuphs
 {
@@ -8,6 +9,7 @@ namespace FoodShtuphs
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new LogAttribute());
         }
     }
 }
